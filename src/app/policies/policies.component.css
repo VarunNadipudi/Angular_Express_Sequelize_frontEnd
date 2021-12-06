@@ -1,0 +1,51 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+body{
+  background-color: aliceblue;
+}
+.table-container{
+  background-color: aliceblue;
+  padding: 50px 70px;
+}
+
+.options{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.options input{
+  box-shadow: 0 .5rem 1rem rgba(0,0,256,.1);
+  border: 1px solid rgba(0,0,256,.6);
+  border-radius: .3rem;
+}
+
+.options button{
+  width: 150px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,256,.1);
+  border: 1px solid rgba(0,0,256,.6);
+  border-radius: .3rem;
+}
+.options button:hover{
+  background: rgba(25, 181, 254, 1 );
+  color: yellow;
+  transition: all .1s linear;
+}
+
+
+.actions{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.actions .delete:hover{
+  color: rgba(25, 181, 254, 1 );
+}
+
+.actions .edit:hover{
+  color: rgba(25, 181, 254, 1 );
+}
